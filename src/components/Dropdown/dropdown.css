@@ -1,0 +1,15 @@
+.dropdown-container {
+    margin-top: -62vh !important;
+    margin-left: 24vw !important;
+    position: absolute;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px;
+}
+
+.food-items {
+    width: 32vw;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px;
+}

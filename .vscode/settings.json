@@ -1,0 +1,7 @@
+{
+	"editor.autoIndent": "full",
+	"editor.tabSize": 1,
+	"editor.detectIndentation": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.indentSize": "tabSize"
+}

@@ -74,7 +74,7 @@ const Welcome = () => {
     else if (food === 'Soup' || food === 'soup' || food === 'SOUP') {
       setSoup(true);
     } 
-    else if (food === 'Vegetable Soup' || food === 'vegetable soup' || food === 'VEGETABLE SOUP') {
+    else if (food === 'Vegetable Soup' || food === 'Vegetable soup' ||  food === 'vegetable soup' || food === 'VEGETABLE SOUP') {
       setVegetableSoup(true);
     } 
     else if (food === 'Chicken' || food === 'chicken' || food === 'CHICKEN') {
@@ -92,13 +92,13 @@ const Welcome = () => {
     else if (food === 'Egg' || food === 'egg' || food === 'EGG') {
       setEgg(true);
     } 
-    else if (food === 'Okra Soup' || food === 'okra soup' || food === 'OKRA SOUP') {
+    else if (food === 'Okra Soup' || food === 'Okra soup' ||  food === 'okra soup' || food === 'OKRA SOUP') {
       setOkraSoup(true);
     } 
     else if (food === 'Shawarma' || food === 'shawarma' || food === 'SHAWARMA') {
       setShawarma(true);
     } 
-    else if (food === 'Fried Rice' || food === 'fried rice' || food === 'FRIED RICE') {
+    else if (food === 'Fried Rice' || food === 'Fried rice' || food === 'fried rice' || food === 'FRIED RICE') {
       setFriedRice(true);
     } 
     else if (food === 'Cake' || food === 'cake' || food === 'CAKE') {
@@ -110,13 +110,13 @@ const Welcome = () => {
     else if (food === 'Moi moi' || food === 'moi moi' || food === 'MOI MOI') {
       setMoimoi(true);
     } 
-    else if (food === 'Ofe Nsala' || food === 'ofe nsala' || food === 'OFE NSALA') {
+    else if (food === 'Ofe Nsala' || food === 'Ofe nsala' || food === 'ofe nsala' || food === 'OFE NSALA') {
       setOfeNsala(true);
     } 
     else if (food === 'Plantain' || food === 'plantain' || food === 'PLANTAIN') {
       setPlantain(true);
     } 
-    else if (food === 'Pounded Yam' || food === 'pounded yam' || food === 'POUNDED YAM') {
+    else if (food === 'Pounded Yam' || food === 'Pounded yam' || food === 'pounded yam' || food === 'POUNDED YAM') {
       setPoundedYam(true);
     } 
     else if (food === 'Suya' || food === 'suya' || food === 'SUYA') {
@@ -140,13 +140,13 @@ const Welcome = () => {
       <p>You are Welcome to the Wedding Reception of</p>
      </div>
      <div>
-      <h3>Mr & Mrs MOUAU</h3>
+      <h3>Mr & Mrs CSC 413</h3>
      </div>
      <div className='mt-4'>
       <p>What would you like to eat?</p>
      </div>
 
-     <div className='d-flex flex-column text-center align-items-center' >
+     <div className='d-flex flex-column input-container text-center align-items-center' >
       <input
       placeholder='Which Food do you need?'
       name='food'
@@ -154,7 +154,10 @@ const Welcome = () => {
       onChange={handleChange}
       type='text'
       className='text-holder p-3' />
-      <div className='mt-4 p-3 text-white button-check' onClick={showDropdown} >
+      <i><p className='mt-3 spelling-check text-muted'>
+        Please check the spelling before clicking the button
+      </p></i>
+      <div className='mt-1 p-3 text-white button-check' onClick={showDropdown} >
         Check For Food</div>
      </div>
      {show ? (

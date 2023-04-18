@@ -18,3 +18,21 @@
 .cancel-icon {
     align-self: flex-end !important;
 }
+
+@media screen and (max-width: 600px) {
+    .text-holder {
+        width: 80vw;
+    }
+
+    .button-check {
+        width: 65vw;
+    }
+
+    .spelling-check {
+        width: 60vw;
+    }
+
+    .input-container {
+        margin-top: -5vh;
+    }
+}

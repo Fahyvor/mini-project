@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c1787486.css",
+    "main.js": "/static/js/main.a424d86d.js",
+    "static/media/Shawarma.jpg": "/static/media/Shawarma.81f57ff605ca684b2779.jpg",
+    "static/media/Vegetable-Soup.jpg": "/static/media/Vegetable-Soup.aec67e232ec68a1dbc77.jpg",
+    "static/media/Soup.jpeg": "/static/media/Soup.c8ca76d2600c1f22b475.jpeg",
+    "static/media/Fried-Rice.jpeg": "/static/media/Fried-Rice.bc8afef80b1fdd385c3d.jpeg",
+    "static/media/Ofe-Nsala.jpg": "/static/media/Ofe-Nsala.eb2f2731c45db24b8f93.jpg",
+    "static/media/Chops.jpg": "/static/media/Chops.981f20ee0372830ea39e.jpg",
+    "static/media/Okra-Soup.jpg": "/static/media/Okra-Soup.e3a3c82e9c12493f63c5.jpg",
+    "static/media/Moi-Moi.jpg": "/static/media/Moi-Moi.a9ab9e97a700fdc91ecc.jpg",
+    "static/media/Pounded-Yam.jpeg": "/static/media/Pounded-Yam.4a44a02ffb98bc70d2d6.jpeg",
+    "static/media/Egg.jpeg": "/static/media/Egg.d71b39013d17ee875c12.jpeg",
+    "static/media/Jollof-Rice.jpg": "/static/media/Jollof-Rice.9fef173bd2877935ffbd.jpg",
+    "static/media/Chicken.jpeg": "/static/media/Chicken.7b9a9a1e383aca0ed27a.jpeg",
+    "static/media/Rice.jpeg": "/static/media/Rice.ce621a0fb24d6f8e55cb.jpeg",
+    "static/media/Pizza.jpeg": "/static/media/Pizza.eb7255f85bd91513f6ac.jpeg",
+    "static/media/Snacks.jpeg": "/static/media/Snacks.d2d8805f6afce7b09674.jpeg",
+    "static/media/Suya.jpeg": "/static/media/Suya.beb42855d96bd84ca37d.jpeg",
+    "static/media/Plantain.jpeg": "/static/media/Plantain.65ea36ab12e12d570742.jpeg",
+    "static/media/Cake.jpeg": "/static/media/Cake.65653e14eb7c6fb0fc4a.jpeg",
+    "index.html": "/index.html",
+    "main.c1787486.css.map": "/static/css/main.c1787486.css.map",
+    "main.a424d86d.js.map": "/static/js/main.a424d86d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c1787486.css",
+    "static/js/main.a424d86d.js"
+  ]
+}

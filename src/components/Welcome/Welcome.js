@@ -20,6 +20,7 @@ import Plantain from '../../assets/Plantain.jpeg'
 import PoundedYam from '../../assets/Pounded-Yam.jpeg'
 import Suya from '../../assets/Suya.jpeg'
 import Snacks from '../../assets/Snacks.jpeg'
+import Background from '../../assets/background-image.jpg'
 import { FcCancel } from 'react-icons/fc'
 
 const Welcome = () => {
@@ -136,6 +137,8 @@ const Welcome = () => {
       <div className='d-flex flex-end align-items-end' onClick={hideDropdown}>
       <FcCancel className='cancel-icon' size={40}/>
      </div>
+     <div className='d-flex gap-4 mx-2 left-and-right'>
+     <div className='left-side'>
      <div className='mt-4'>
       <p>You are Welcome to the Wedding Reception of</p>
      </div>
@@ -159,6 +162,12 @@ const Welcome = () => {
       </p></i>
       <div className='mt-1 p-3 text-white button-check' onClick={showDropdown} >
         Check For Food</div>
+     </div>
+     </div>
+     <div className='left-side'>
+     <img src={Background} className='background_image mt-4
+     mx-auto'/>
+     </div>
      </div>
      {show ? (
           <Dropdown 
